@@ -31,6 +31,8 @@
 
 // INTENTIONALLY UNCOMPILABLE!
 
+package com.oracle.docs.javase.tutorial.getstarted.exercises._2;
+
 /** 
  * The HelloWorldApp class implements an application that
  * simply prints "Hello World!" to standard output.
