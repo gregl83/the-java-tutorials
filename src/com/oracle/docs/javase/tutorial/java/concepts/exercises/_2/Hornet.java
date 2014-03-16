@@ -9,4 +9,12 @@ public class Hornet extends Airplane {
   public Hornet() {
     super("McDonnell Douglas", "F/A-18 Hornet");
   }
+
+  public void toggleRadar () {
+    // todo toggle radar
+  }
+
+  public void getTarget (int targetId) {
+    // todo return target with id
+  }
 }

@@ -8,6 +8,7 @@ import java.util.HashMap;
 public abstract class Airplane implements Flyable {
   // velocity
   int speed = 0;
+  int vectorAngle = 0;
 
   // turning
   int bankAngle = 0; // angle of bank
