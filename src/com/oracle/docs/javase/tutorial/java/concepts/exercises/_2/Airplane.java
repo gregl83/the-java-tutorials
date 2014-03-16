@@ -5,7 +5,7 @@ import java.util.HashMap;
 /**
  * Airplane SuperClass
  */
-public abstract class Airplane {
+public abstract class Airplane implements Flyable {
   // velocity
   int speed = 0;
 
