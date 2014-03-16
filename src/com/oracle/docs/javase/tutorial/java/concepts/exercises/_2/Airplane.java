@@ -1,9 +1,11 @@
 package com.oracle.docs.javase.tutorial.java.concepts.exercises._2;
 
+import java.util.HashMap;
+
 /**
  * Airplane SuperClass
  */
-public class Airplane implements Flyable {
+public abstract class Airplane {
   // velocity
   int speed = 0;
 
@@ -18,14 +20,36 @@ public class Airplane implements Flyable {
   String manufacturer;
   String model;
 
-  public static void main (String[] args) {
-    // todo constructor
+  public Airplane(String manufacturere, String model){
+    this.manufacturer = manufacturere;
+    this.model = model;
+
+    System.out.println(manufacturer + " " + model + " - Pre-Flight Complete");
+  }
+
+  public HashMap getStats() {
+    HashMap stats = new HashMap();
+
+    stats.put("speed", speed);
+
+    stats.put("bankAngle", bankAngle);
+    stats.put("bearing", bearing);
+
+    stats.put("pitchAngle", pitchAngle);
+    stats.put("altitude", altitude);
+
+    stats.put("manufacturer", manufacturer);
+    stats.put("model", model);
+
+    return stats;
   }
 
   public void changeSpeed (int mph) {
     // todo validate speed
 
     speed = speed + mph;
+
+    // todo change speed as long as speed is greater or less than zero
   }
 
   public void changeBankAngle (int angle) {
@@ -45,10 +69,10 @@ public class Airplane implements Flyable {
   }
 
   public void takeoff () {
-    // todo perform takeoff procedures and rollout
+    // todo perform takeoff maneuver and rollout
   }
 
   public void land () {
-    // todo perform landing procedures and touchdown
+    // todo perform landing maneuver and touchdown
   }
 }
