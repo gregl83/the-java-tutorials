@@ -55,9 +55,12 @@ public class VariablesAndFields {
     char charUnicodeMin = '\u0000';
     char charUnicodeMax = '\uffff';
 
-    // todo hexadecimal and unicode
+    // todo hexadecimal
+    // todo unicode
 
     // int 1nvalidName = 1;
     int validNam3 = 3;
+
+    // todo arrays
   }
 }
