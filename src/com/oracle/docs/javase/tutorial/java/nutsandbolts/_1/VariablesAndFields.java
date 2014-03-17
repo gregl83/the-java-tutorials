@@ -1,9 +1,9 @@
 package com.oracle.docs.javase.tutorial.java.nutsandbolts._1;
 
 /**
- * Java fields and illegal fields examples
+ * Java variables and fields and illegal fields examples
  */
-public class Fields {
+public class VariablesAndFields {
   public static int NUMBER_OF_GEARS = 6;
   public static final int DAYS_IN_YEAR = 365;
 
