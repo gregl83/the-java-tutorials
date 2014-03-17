@@ -1,7 +1,7 @@
 package com.oracle.docs.javase.tutorial.java.nutsandbolts._2;
 
 /**
- * Java variables and fields and illegal fields examples
+ * Java uninitialized variables and fields example
  */
 public class VariablesAndFields {
   public static byte byteUninitialized;
