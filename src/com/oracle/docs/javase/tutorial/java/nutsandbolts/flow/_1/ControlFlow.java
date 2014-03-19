@@ -6,8 +6,8 @@ package com.oracle.docs.javase.tutorial.java.nutsandbolts.flow._1;
  * a. "second string\nthird string"
  * b. aNumber is greater than 3 so the first if expression passes.  the second if expression
  *    fails.  the else is triggered by the lack of braceses.
- * c.
- * d.
+ * c. see method c output
+ * d. see method d output
  *
  */
 public class ControlFlow {
